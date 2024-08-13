@@ -1,34 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  Learning
+    <link rel="stylesheet" href="src/css/style.css" />
 
-  Published 21 Dec 2023
+    <title>Frontend Mentor | Blog preview card</title>
 
-  HTML & CSS foundations
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: #3e52a3;
+      }
+    </style>
+  </head>
+  <body class="body">
+    <!-- <div> -->
+    <figure class="card">
+      <img
+        src="assets/images/illustration-article.svg"
+        alt="card image"
+        class="card__img"
+      />
 
-  These languages are the backbone of every website, defining structure, content, and presentation.
+      <span class="tag">Learning</span>
 
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      <p class="published">Published 21 Dec 2023</p>
+
+      <h2 class="heading-secondary">HTML & CSS foundations</h2>
+
+      <p class="card__text">
+        These languages are the backbone of every sebsite, definig structure,
+        content, and presentation
+      </p>
+
+      <figure class="author">
+        <img
+          src="assets/images/image-avatar.webp"
+          alt="avatar"
+          class="author__img"
+        />
+
+        <p class="author__name">Greg Hooper</p>
+      </figure>
+    </figure>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Salah Elsadany</a>.
+    </div>
+    <!-- </div> -->
+  </body>
 </html>
